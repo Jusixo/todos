@@ -1,0 +1,18 @@
+[31mF[0m[32m.[0m
+
+Failures:
+
+  1) user creates todo succesfully
+     [31mFailure/Error: fill_in "title", with: "Buy milk"[0m
+     [31m[0m
+     [31mCapybara::ElementNotFound:[0m
+     [31m  Unable to find field "title"[0m
+     [36m# ./spec/features/create_todo_spec.rb:8:in `block (2 levels) in <top (required)>'[0m
+
+Finished in 0.38228 seconds (files took 2.08 seconds to load)
+[31m2 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/features/create_todo_spec.rb:4[0m [36m# user creates todo succesfully[0m
+
