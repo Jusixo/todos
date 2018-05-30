@@ -6,6 +6,5 @@ feature "user creates todo" do
 
     click_on "Add a new todo"
     click_on "Submit"
-
     end
 end
